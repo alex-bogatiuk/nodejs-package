@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import calculator from '../src/calculator.js';
+import calculator from '../index.js';
 
 calculator.read();
 
