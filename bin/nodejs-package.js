@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
-import half from '../index.js';
+import calculator from '../src/calculator.js';
 
-console.log(half(Number(process.argv[process.argv.length - 1])));
+calculator.read();
+
+console.log('Сумма чисел: ', calculator.sum());
+console.log('Произведение чисел: ', calculator.mul());

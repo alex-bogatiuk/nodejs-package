@@ -2,7 +2,7 @@ install: install-deps
 	npx simple-git-hooks
 
 run:
-	bin/nodejs-package.js 10
+	bin/nodejs-package.js
 
 install-deps:
 	npm ci
